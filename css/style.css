@@ -1,0 +1,147 @@
+body 
+{
+    margin:0px;
+    background-color:#171a2e;
+    color:white;
+    font-family:Verdana;
+    background: url(../images/spacebackground.png)
+}
+
+header img 
+{    
+    width: 100%;
+    height: 410px;
+    border-bottom: 4px solid white;
+}
+
+nav
+{
+    text-align:center;
+    border-bottom: 4px solid white;
+    padding:15px;
+    margin-bottom:15px;
+}
+
+ul 
+{
+    margin:auto;
+    padding:0px;
+}
+
+
+
+nav ul li {display:inline-block;}
+
+section
+{
+    padding: 15px;
+    border: 4px solid white;
+    border-radius: 16px;
+    margin: 50px 80px;;
+    box-sizing:border-box;
+    background-image: linear-gradient(#00001e, #000, #000);
+    font-size:20px;
+    text-align: center;
+}
+
+section h1 {margin:0;}
+div h1 
+{
+    margin:0;
+    font-size:30px;
+}
+
+section p {margin:20px 0;}
+
+footer {text-align:center; display:block;}
+
+footer img 
+{
+    height: 160px;
+    padding:15px 0;
+}
+
+.druida {width:70%; height:50%;}
+
+.lil {width:50%;}
+
+.float
+{
+    float:left;
+    position:absolute;
+    left:15px;
+    top:-5px;
+    font-weight:bold;
+}
+
+.list1 
+{ 
+    margin: 45px 0;
+    border: 0 solid white;
+    padding: 0;
+    position: sticky;
+    top: 30px;
+}
+
+.refBack:hover 
+{
+    text-decoration: underline;
+}
+
+.refInt2
+{
+    text-decoration: none;
+    color:white;
+    font-size:25px;
+    text-transform:uppercase;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius:16px;
+    background-color: #00001e; 
+}
+
+.refInt2:hover {text-decoration: underline;}
+
+.refInt2:active {color:#10ff00; border: 3px solid #10ff00;}
+
+.refInt
+{
+    text-decoration: none;
+    color:white;
+    font-size:15px;
+    text-transform:uppercase;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius:16px;
+    background-color: #00001e; 
+}
+
+.refInt:hover {text-decoration: underline;}
+
+.refInt:active {color: #10ff00; border: 3px solid #10ff00;}
+
+.refs 
+{
+    margin:0;
+    padding:0;
+    display: inline;
+}
+
+.refExt 
+{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+    text-transform:uppercase;
+    padding: 20px;
+}
+
+.refExt:hover {text-decoration:underline;}
+
+.refExt:active {color: #10ff00;}
+
+.sec {margin-top:0;}
+
+
+
+/*.testes {border: 1px solid white;}*/
